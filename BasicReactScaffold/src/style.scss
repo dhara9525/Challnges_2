@@ -1,0 +1,12 @@
+$color: Brown;
+$background-color: Pink;
+
+@mixin autoprefixer-test {
+  user-select: none;
+}
+
+body {
+  @include autoprefixer-test;
+  color: $color;
+  background-color: $background-color;
+}
